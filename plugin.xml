@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com-smileypeb-plugins-happypluginswift" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>HappyPluginSwift</name>
+    <js-module name="HappyPluginSwift" src="www/HappyPluginSwift.js">
+        <clobbers target="happypluginswift" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="HappyPluginSwift">
+                <param name="ios-package" value="HappyPluginSwift" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/HappyPluginSwift.swift" />
+    </platform>
+</plugin>

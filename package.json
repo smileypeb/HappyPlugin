@@ -1,0 +1,25 @@
+{
+  "name": "com-smileypeb-plugins-happypluginswift",
+  "version": "0.0.1",
+  "description": "Example Plugin",
+  "cordova": {
+    "id": "com-smileypeb-plugins-happypluginswift",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smileypeb/HappyPlugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Paul Blanch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smileypeb/HappyPlugin/issues"
+  },
+  "homepage": "https://github.com/smileypeb/HappyPlugin#readme"
+}
