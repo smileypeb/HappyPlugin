@@ -7,9 +7,11 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="HappyPluginSwift">
-                <param name="ios-package" value="HappyPluginSwift" />
+                <param name="ios-package" value="HappyPluginSwift" onload="true" />
             </feature>
         </config-file>
+        <header-file src="src/ios/HappyPlugin.h" />
+        <source-file src="src/ios/HappyPlugin.m" />
         <source-file src="src/ios/HappyPluginSwift.swift" />
     </platform>
 </plugin>

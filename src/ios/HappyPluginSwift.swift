@@ -1,5 +1,5 @@
 @objc(HappyPluginSwift) class HappyPluginSwift : CDVPlugin {
-  func happyMethod(command: CDVInvokedUrlCommand) {
+  func happySwiftMethod(command: CDVInvokedUrlCommand) {
         var pluginResult = CDVPluginResult( status: CDVCommandStatus_ERROR )
 
         let msg = command.arguments[0] as? String ?? "Happy Plugin Message!!"
